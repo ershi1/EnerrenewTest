@@ -1,0 +1,28 @@
+[
+    {
+        "endpoint": "/mweb/v1/wind/today",
+        "method": "GET",
+        "params": {
+            "stationId": "5711afea6950483cba4b86949d7a0238"
+        },
+        "expected_status": 200
+    },
+    {
+        "endpoint": "/v1/wind/week",
+        "method": "GET",
+        "params": {
+            "stationId": "5711afea6950483cba4b86949d7a0238"
+        },
+        "expected_status": 200
+    },
+    {
+        "endpoint": "/mweb/v1/wind/month",
+        "method": "GET",
+        "expected_status": 200
+    },
+    {
+        "endpoint": "/mweb/v1/wind/year",
+        "method": "GET",
+        "expected_status": 200
+    }
+]

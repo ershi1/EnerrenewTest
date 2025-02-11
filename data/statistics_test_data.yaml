@@ -1,0 +1,95 @@
+- endpoint: /wind/electricity/day
+  method: GET
+  params:
+    stationId: 5711afea6950483cba4b86949d7a0238
+  headers:
+    Authorization:
+  expected_status: 200
+
+- endpoint: /wind/electricity/week
+  method: GET
+  params:
+    stationId: 5711afea6950483cba4b86949d7a0238
+  headers:
+    Authorization:
+  expected_status: 200
+
+- endpoint: /wind/electricity/month
+  method: GET
+  params:
+    stationId: 5711afea6950483cba4b86949d7a0238
+  headers:
+    Authorization:
+  expected_status: 200
+
+- endpoint: /wind/electricity/year
+  method: GET
+  params:
+    stationId: 5711afea6950483cba4b86949d7a0238
+  headers:
+    Authorization:
+  expected_status: 200
+
+- endpoint: /PV/electricity/day
+  method: GET
+  params:
+    stationId: 5711afea6950483cba4b86949d7a0238
+  headers:
+    Authorization:
+  expected_status: 200
+
+- endpoint: /PV/electricity/week
+  method: GET
+  params:
+    stationId: 5711afea6950483cba4b86949d7a0238
+  headers:
+    Authorization:
+  expected_status: 200
+
+- endpoint: /PV/electricity/month
+  method: GET
+  params:
+    stationId: 5711afea6950483cba4b86949d7a0238
+  headers:
+    Authorization:
+  expected_status: 200
+
+- endpoint: /PV/electricity/year
+  method: GET
+  params:
+    stationId: 5711afea6950483cba4b86949d7a0238
+  headers:
+    Authorization:
+  expected_status: 200
+
+- endpoint: /revenue/day
+  method: GET
+  params:
+    stationId: 5711afea6950483cba4b86949d7a0238
+  headers:
+    Authorization:
+  expected_status: 200
+
+- endpoint: /revenue/week
+  method: GET
+  params:
+    stationId: 5711afea6950483cba4b86949d7a0238
+  headers:
+    Authorization:
+  expected_status: 200
+
+- endpoint: /revenue/month
+  method: GET
+  params:
+    stationId: 5711afea6950483cba4b86949d7a0238
+  headers:
+    Authorization:
+  expected_status: 200
+
+- endpoint: /revenue/year
+  method: GET
+  params:
+    stationId: 5711afea6950483cba4b86949d7a0238
+  headers:
+    Authorization:
+  expected_status: 200
