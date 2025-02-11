@@ -9,12 +9,12 @@ def run_tests():
 
     command = [
         "python", "-m", "pytest",
-        "case/",
+        "config/",
         "--alluredir", allure_dir,
         "-n", "auto"
     ]
 
-    print("Running case...")
+    print("Running config...")
     result = subprocess.run(command)
 
     if result.returncode == 0:

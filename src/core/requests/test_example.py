@@ -1,12 +1,12 @@
 # !/usr/bin python3
 # encoding: utf-8 -*-
-# @file   : /case/testcase_example.py
+# @file   : /tests/testcase_example.py
 
 import allure
 import pytest
 from socks import method
-from utils.request_method import HttpRequest
-from utils.data_loader import load_yaml
+from src.api.client.http_client import HttpRequest
+from src.core.utils.data_utils import load_yaml
 
 BASE_URL = "http://192.168.3.54:20238"
 
@@ -16,7 +16,7 @@ test_data = load_yaml('data/statistics_test_data.yaml')
 @pytest.fixture
 def api_client():
     client = HttpRequest(BASE_URL)
-    client.load_token("case/data/config_token.json")
+    client.load_token("tests/data/config_token.json")
     return client
 
 @allure.step("Send {method} request to{endpoint}")

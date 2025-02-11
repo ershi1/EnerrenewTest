@@ -1,7 +1,7 @@
 # coding: utf-8
 import os
 import yaml
-from utils.logger import logger
+from src.core.utils.logger import logger
 
 pr_path = os.path.dirname(os.path.dirname(__file__))
 extr_path = os.path.join(pr_path + '/data/extract.yaml')

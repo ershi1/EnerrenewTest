@@ -1,0 +1,7 @@
+# 示例配置文件 (src/core/config/environments/dev.yaml)
+"""
+API_BASE_URL: "https://dev.api.example.com"
+DB_HOST: "localhost"
+DB_PORT: 3306
+LOG_LEVEL: "DEBUG"
+"""

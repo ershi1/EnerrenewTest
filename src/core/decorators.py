@@ -1,5 +1,5 @@
 import functools
-from utils.logger import logger
+from src.core.utils.logger import logger
 
 def log_request_response(func):
     @functools.wraps(func)
