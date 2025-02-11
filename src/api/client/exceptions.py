@@ -1,4 +1,4 @@
-# src/services/exceptions.py
+
 class APIRequestException(Exception):
     """Custom exception for API failures"""
     def __init__(self, message, status_code=None):
